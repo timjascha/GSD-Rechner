@@ -35,7 +35,7 @@ def pixelsize():
     psize.value = str(pixels)
 
 app = App(title="Drone-Tool", width=550, height=300,layout="grid")
-drone_t = Text(app, text="Drone:", grid=[0,0])
+drone_t = Text(app, text="Droaaaane:", grid=[0,0])
 drone=Combo(app, options=["-Custom-","DJI Inspire 1 - Zenmuse X5"],grid=[1,0], command=update)
 gsd_vt = Text(app, text="Desired GSD", grid=[0,1])
 gsd_v = TextBox(app, text="GSD", grid=[1,1])
