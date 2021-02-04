@@ -1,2 +1,2 @@
-# Drone_Tool
- Calculate  GSD
+# GSD Rechner
+ Berechnung der GSD
